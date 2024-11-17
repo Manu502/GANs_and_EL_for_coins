@@ -85,4 +85,12 @@ Das setzen von `--eval` wird für die Evaluation benötigt. Mit diesem Flag werd
 Mit den JSON-Dateien kann der Nutzer der Ensemble-Klasse entscheiden, welche Netzwerke (CNNs) ein Ensemble bilden sollen.
 In diesen Dateien sind für jedes Netzwerk die Pfade zu den Vorhersagen zu den Test- und Validierungsdaten enthalten.
 Die Datei hat im allgemeinen folgende Struktur:
+```json
+{
+"CNN_1":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy",
+"CNN_2":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy",
+"CNN_3":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy"
+}
+```
+Anmerkung: In diesem Fall würde das Ensemble aus drei Netwerken bestehen.
 

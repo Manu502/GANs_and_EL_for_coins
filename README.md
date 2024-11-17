@@ -82,5 +82,7 @@ Die Eingabe ist allgemein wie folgt:
         python3 Ensemble.py Path/To/JSON_File.json Path/To/Dictionary_Pickle.pkl voting_or_stacking_function Top-X-value --eval
 Das setzen von `--eval` wird für die Evaluation benötigt. Mit diesem Flag werden die Ergebnisse ausgegeben und die Konfusionsmatrizen und CSV-Dateien gespeichert.
 
-
+Mit den JSON-Dateien kann der Nutzer der Ensemble-Klasse entscheiden, welche Netzwerke (CNNs) ein Ensemble bilden sollen.
+In diesen Dateien sind für jedes Netzwerk die Pfade zu den Vorhersagen zu den Test- und Validierungsdaten enthalten.
+Die Datei hat im allgemeinen folgende Struktur:
 

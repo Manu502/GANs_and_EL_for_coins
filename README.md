@@ -87,9 +87,9 @@ In diesen Dateien sind für jedes Netzwerk die Pfade zu den Vorhersagen zu den T
 Die Datei hat im allgemeinen folgende Struktur:
 ```json
 {
-"CNN_1":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy",
-"CNN_2":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy",
-"CNN_3":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy"
+"Name_of_CNN_1":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy",
+"Name_of_CNN_2":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy",
+"Name_of_CNN_3":"Path_to_Predictions_on_Test_Data/Test_Prediction_File.npy,Path_to_Predictions_on_Validation_Data/Validation_Prediction_File.npy"
 }
 ```
 Anmerkung: In diesem Fall würde das Ensemble aus drei Netwerken bestehen.

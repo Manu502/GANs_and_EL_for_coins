@@ -1,0 +1,11 @@
+{
+    "Res101_Both_TrainAllWithCahides":"/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Test_predictions_Res101_Both_TrainAllWithCahides.npy,/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Validation_predictions_Res101_Both_TrainAllWithCahides.npy",
+    "Res101_Both_TrainSubWithCahides":"/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Test_predictions_Res101_Both_TrainSubWithCahides.npy,/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Validation_predictions_Res101_Both_TrainSubWithCahides.npy",
+    "Res152_Both_TrainAllWithCahides":"/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Test_predictions_Res152_Both_TrainAllWithCahides.npy,/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Validation_predictions_Res152_Both_TrainAllWithCahides.npy",
+    "Res152_Both_TrainSubWithCahides":"/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Test_predictions_Res152_Both_TrainSubWithCahides.npy,/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Validation_predictions_Res152_Both_TrainSubWithCahides.npy",
+    "Res50_Both_TrainAllWithCahides":"/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Test_predictions_Res50_Both_TrainAllWithCahides.npy,/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Validation_predictions_Res50_Both_TrainAllWithCahides.npy",
+    "Res50_Both_TrainSubWithCahides":"/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Test_predictions_Res50_Both_TrainSubWithCahides.npy,/home/student_01/Projects/MA_Robin_Emmanuela/cnn_and_ensemble/predictions/Cahides/Validation_predictions_Res50_Both_TrainSubWithCahides.npy"     
+}
+             
+            
+                        

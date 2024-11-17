@@ -1,6 +1,3 @@
-# GANs_and_EL_for_coins
-Generative Adversarial Networks und Ensemble Learning zur Generierung antiker Münzbilder und Klassifizierung von Münztypen
-
 # 1. Generierung antiker Münzbilder mittels Few-Shot GANs (FSGANs)
 
 In dieser Arbeit wurde der Few-shot-GAN genutzt: [Few-shot-GAN GitHub Repository](https://github.com/e-271/few-shot-gan/tree/master). Dieser erfordert TensorFlow Version 1.14 oder 1.15. Diese älteren TensorFlow-Versionen können möglicherweise nicht kompatibel mit neueren Nvidia-Grafikkarten sein. Daher wird Docker empfohlen: [Docker Dokumentation](https://docs.docker.com).

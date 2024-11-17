@@ -28,9 +28,9 @@ Das Training wird mit folgendem Befehl von der Konsole aus gestartet:
 
 Für den FSGAN muss `config-ada-sv-flat` genutzt werden. Wenn kein Evaluationsset vorhanden ist, wird `dataset-eval` standardmäßig auf das Trainingsset gesetzt. `stylegan2-ffhq-config-f.pkl` ist ein trainiertes StyleGAN2-Modell auf dem gesamten Münzdatensatz. `total-kimg` gibt die Trainingslänge an. `img-ticks` gibt an, wie oft Fake-Bilder während des Trainings generiert werden sollen. `net-ticks` gibt an, wie oft ein Zwischenergebnis gespeichert werden soll.
 
-Alternativ kann das Skript `startTraining.sh` genutzt werden. Dies führt mehrere Trainingsvorgänge hintereinander aus, für alle Unterordner im angegebenen Pfad. Befehl:
+Alternativ kann das Skript `startTrainingFSGAN.sh` genutzt werden. Dies führt mehrere Trainingsvorgänge hintereinander aus, für alle Unterordner im angegebenen Pfad. Befehl:
     
-    bash startTraining.sh pathTo/tfds/trainset pathTo/resultDirectory 80
+    bash startTrainingFSGAN.sh pathTo/tfds/trainset pathTo/resultDirectory 80
 
 
 `trainset` enthält alle Trainingsdatensätze, für die das Training durchgeführt wird. `resultDirectory` gibt an, wo die Ergebnisse gespeichert werden sollen. Für jedes Trainingsset wird automatisch ein Ordner in `resultDirectory` erstellt.
@@ -53,9 +53,9 @@ Für das Training wird die Datei `cnnTraining.py` benutzt. Das Training wird mit
 
 `path/to/secondEvalset` und `--augmentation` sind optionale Argumente. Wenn die Flag `--augmentation` gesetzt ist, wird Data Augmentation auf die Trainingsdaten angewendet. `FreezeUntilLayer` gibt an, bis zu welchem Layer die Gewichte nicht neu trainiert werden sollen (Default: `Conv4` für die ResNets). `model='ResNet50V2'` gibt an, welches Modell trainiert werden soll. ResNet50V2, ResNet101V2, ResNet152V2 und VGG16 sind unterstützt.
 
-Alternativ können mehrere Trainings mit Hilfe des Skripts `startTraining.sh` durchgeführt werden. Dafür müssen die gewünschten Trainingsparameter im Abschnitt "Configurations" des Skriptes angegeben werden. Ausführung:
+Alternativ können mehrere Trainings mit Hilfe des Skripts `startTrainingCNN.sh` durchgeführt werden. Dafür müssen die gewünschten Trainingsparameter im Abschnitt "Configurations" des Skriptes angegeben werden. Ausführung:
 
-    bash startTraining.sh NumOfRepeats
+    bash startTrainingCNN.sh NumOfRepeats
 
 `NumOfRepeats` gibt an, wie oft das Training für eine Konfiguration wiederholt werden soll.
 

@@ -82,12 +82,5 @@ Die Eingabe ist allgemein wie folgt:
         python3 Ensemble.py Path/To/JSON_File.json Path/To/Dictionary_Pickle.pkl voting_or_stacking_function Top-X-value --eval
 Das setzen von `--eval` wird für die Evaluation benötigt. Mit diesem Flag werden die Ergebnisse ausgegeben und die Konfusionsmatrizen und CSV-Dateien gespeichert.
 
-Beispiel 1: Ausführen des *All* Ensembles mit Stacking mit der logistischen Regression (`stacking_with_LR`) auf dem *Test* Datensatz
-##
-        python3 Ensemble.py /PathTo/JsonFiles/All_AllNew_AllNoSub/AllTestPreds.json /PathTo/dict/class_names_dictRes50_Both_Base_NoAug_FreezeConv4.pkl stacking_with_LR 1 --eval
-
-Beispiel 2: Ausführen des *Base* Ensembles mit dem gewichteten Voting (`weighted_soft_voting`) auf dem *Test13* Datensatz
-##
-        python3 Ensemble.py /PathTo/JsonFiles/Base/BaseTest13Preds.json /PathTo/dict/class_names_dictRes50_Both_Base_NoAug_FreezeConv4.pkl weighted_soft_voting 1 --eval
 
 
